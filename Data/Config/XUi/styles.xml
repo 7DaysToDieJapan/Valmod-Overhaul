@@ -139,7 +139,7 @@
 	<!--LABELS-->
 	<style type="label">
 		<style_entry name="color" value="[labelColor]"/>
-		<style_entry name="font_face" value="AgencyB_32p"/>
+		<style_entry name="font_face" value="AgencyB"/>
 		<style_entry name="font_size" value="28"/>
 		<style_entry name="justify" value="left"/>
 		<style_entry name="effect" value="none"/>

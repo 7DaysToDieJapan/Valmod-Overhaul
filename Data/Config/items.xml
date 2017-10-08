@@ -10557,7 +10557,7 @@ Mesh files no longer used:
 		</property>
 	</item>
 	<item id="1709" name="steelLegs">
-		<property name="Extends" value="scrapLegArmor"/>
+		<property name="Extends" value="ironLegArmor"/>
 		<property name="CustomIcon" value="scrapLegArmor"/>
 		<property name="CustomIconTint" value="696B67"/>
 		<property name="Degradation" value="270" param1="true"/>
@@ -10576,7 +10576,7 @@ Mesh files no longer used:
 		</property>
 	</item>
 	<item id="1710" name="steelChestplate">
-		<property name="Extends" value="scrapChestArmor"/>
+		<property name="Extends" value="ironChestArmor"/>
 		<property name="CustomIcon" value="scrapChestArmor"/>
 		<property name="CustomIconTint" value="696B67"/>
 		<property name="Degradation" value="270" param1="true"/>
@@ -10595,7 +10595,7 @@ Mesh files no longer used:
 		</property>
 	</item>
 	<item id="1711" name="steelHelmet">
-		<property name="Extends" value="scrapBoots"/>
+		<property name="Extends" value="ironHelmet"/>
 		<property name="CustomIcon" value="scrapHelmet"/>
 		<property name="CustomIconTint" value="696B67"/>
 		<property name="Meshfile" value="Items/Clothing/Head/swatHelmetPrefab"/>
@@ -11991,7 +11991,7 @@ Mesh files no longer used:
 </item>
 <item id="1851" name="bowlRamenNoodles">
 	<property name="Meshfile" value="Items/Food/venison_stewPrefab"/>
-	<property name="DescriptionKey" value="bowlRamenNoodles"/>
+	<property name="DescriptionKey" value="bowlRamenNoodlesDesc"/>
 	<property name="Material" value="organic"/>
 	<property name="HoldType" value="23"/>
 	<property name="Group" value="Food/Cooking"/>
@@ -13309,7 +13309,7 @@ Mesh files no longer used:
 		</property>
 	</item>
 	<item id="2064" name="skillbookHunter">
-		<property name="DescriptionKey" value="skillbookHuntergDesc"/>
+		<property name="DescriptionKey" value="skillbookHunterDesc"/>
 		<property name="Extends" value="schematicMaster"/>
 		<property class="Action1">
 			<property name="Skills_to_gain" value="Blade Weapons,Archery,Clothing/Armor"/>
@@ -15707,11 +15707,11 @@ Mesh files no longer used:
 		<property name="Magazine_item_ray_spreads" value="0"/>
 		<property name="Bullet_material" value="metal"/>
 		<property name="Reload_time" value="4.1"/>
-		<property name="Sound_start" value="chainsaw_fire_start"/>
+		<property name="Sound_start" value="Weapons/Motorized/Chainsaw/chainsaw_fire_start"/>
 		<property name="Sound_repeat" value="Weapons/Motorized/Chainsaw/chainsaw_fire_lp"/>
 		<property name="Sound_end" value="Weapons/Motorized/Chainsaw/chainsaw_fire_end"/>
-		<property name="Sound_empty" value="chainsaw_empty"/>
-		<property name="Sound_reload" value="chainsaw_reload"/>
+		<property name="Sound_empty" value="Weapons/Motorized/Chainsaw/chainsaw_empty"/>
+		<property name="Sound_reload" value="Weapons/Motorized/Chainsaw/chainsaw_reload"/>
 		<property name="Horde_meter_rate" value=".275"/>
 		<property name="Horde_meter_distance" value="20"/>
 		<property name="Particles_muzzle_smoke" value="nozzlesmoke_chainsaw"/>
@@ -15726,8 +15726,8 @@ Mesh files no longer used:
 		<property name="ToolCategory.Lumberjack" value="1"/>
 	</property>
 	<property name="Group" value="Tools/Traps"/>
-	<property name="ActionSkillGroup" value="Mechanical"/>
-	<property name="CraftingSkillGroup" value="Mechanical"/>
+	<property name="ActionSkillGroup" value="Mining Tools"/>
+	<property name="CraftingSkillGroup" value="craftSkillScience"/>
 	<property class="Attributes">
 		<property name="FalloffRange" value="2.35,2.35"/>
 		<property name="DegradationRate" value="5,5"/>
