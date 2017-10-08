@@ -82,7 +82,7 @@
 			<add perk_level="5" value="1.0"/>
 		</effect>
 	</perk>
-	<player_skill name="Scavenging" icon="loot_sack" description_key="Be the scrounge master and get faster at looting and gain a higher % chance for better loot. Gain skill by opening untouched loot containers. Level 5 unlocks the ability to scrap iron, brass, lead. Level 10 unlocks scrap iron tools and weapons. Level 15 unlocks the Blunderbuss. Level 20 unlocks Lockpicks." title_key="scavenging" group="scavenging">
+	<player_skill name="Scavenging" icon="loot_sack" description_key="略奪のセンスが上がり、探索速度が向上、良い探索報酬を得る確率が向上する。ﾚﾍﾞﾙ5は鉄(IRON),真鍮(BRASS),鉛(LEAD)をスクラップできるようになります。ﾚﾍﾞﾙ10はクズ鉄のツールと武器が解除されます。ﾚﾍﾞﾙ15はラッパ銃(BLUNDERBUSS)を解除し、ﾚﾍﾞﾙ20でロックピック(LOCKPICK)を解除します。" title_key="scavenging" group="scavenging">
 		<effect name="LootTime">
 			<multiply skill_level="1,10" value="1,0.76"/>
 			<multiply skill_level="10,20" value="0.76,0.66"/>
@@ -162,7 +162,7 @@
 		</action_skill>
 
 	<!-- Item Usage Skills -->
-	<action_skill name="Blunt Weapons" exp_to_level="150" icon="club" description_key="Do more damage with blunt weapons. Gain skill by using items from this group. Level 20 unlocks iron club. Level 30 unlocks barbed club. Level 40 unlocks spiked club." title_key="bluntWeapons" group="weapons">
+	<action_skill name="Blunt Weapons" exp_to_level="150" icon="club" description_key="鈍器によるダメージを高めます。 ﾚﾍﾞﾙ20で鉄の棍棒(IRON CLUB),ﾚﾍﾞﾙ30で有刺棍棒(BARBED CLUB)を解除します。ﾚﾍﾞﾙ40でスパイク棍棒(SPIKED CLUB)を解除します。" title_key="bluntWeapons" group="weapons">
 		<effect name="EntityDamage">
 			<multiply skill_level="1,5" value="1,1.04"/>
 			<multiply skill_level="5,11" value="1.04,1.07"/>
@@ -222,7 +222,7 @@
 		</effect>
 	</perk>
 	
-	<action_skill name="Blade Weapons" exp_to_level="150" icon="knife" description_key="Do more damage with bladed weapons and harvest faster if applicable. Gain skill by using items from this group. Level 20 unlocks hunting knife. 30 unlocks machete. 50 unlocks scythe." title_key="bladeWeapons" group="weapons">
+	<action_skill name="Blade Weapons" exp_to_level="150" icon="knife" description_key="刃物によるダメージと収穫効率を高めます。ﾚﾍﾞﾙ20でハンティングナイフ(HUNTING KNIFE),ﾚﾍﾞﾙ30でマチェットを解除します。ﾚﾍﾞﾙ50では鎌を解除します。" title_key="bladeWeapons" group="weapons">
 		<effect name="EntityDamage">
 			<multiply skill_level="1,5" value="1,1.04"/>
 			<multiply skill_level="5,11" value="1.04,1.07"/>
@@ -279,7 +279,7 @@
 			<add skill_level="3" value="0.15"/>
 		</effect>
 	</perk>
-	<action_skill name="Mining Tools" exp_to_level="500" icon="mining" description_key="Do more damage within mining tools and harvest resources faster. Level 10 unlocks shovel, hoe and weed cleaver. Level 20 unlocks iron pickaxe. Level 40 unlocks steel pickaxe." title_key="miningTools" group="tools">
+	<action_skill name="Mining Tools" exp_to_level="500" icon="mining" description_key="鉱業ツールでより多くのダメージと採掘効率を高めます。ﾚﾍﾞﾙ10でシャベル(SHOVEL),鍬(IRON GARDEN HOE),草刈りナイフ(WEED CLEAVER)を解除します。ﾚﾍﾞﾙ20で鉄のツルハシ(IRON PICKAXE),ﾚﾍﾞﾙ40で鋼のツルハシ(STEEL PICKAXE)が解除されます。" title_key="miningTools" group="tools">
 		<effect name="BlockDamage">
 			<multiply skill_level="1,10" value="1.00,1.32"/>
 			<multiply skill_level="10,20" value="1.32,1.45"/>
@@ -335,7 +335,7 @@
 		</effect>
 	</perk>
 
-	<action_skill name="Construction Tools" exp_to_level="500" icon="resource" description_key="Do more damage and harvest faster with stone axe, hammer and sledgehammer . Level 20 unlocks hammer. Level 30 unlocks sledgehammer. Level 40 unlocks wrench." title_key="constructionTools" group="tools">
+	<action_skill name="Construction Tools" exp_to_level="500" icon="resource" description_key="石斧や金づち、スレッジハンマーでより多くのダメージと解体効率を高めます。ﾚﾍﾞﾙ20で金づち(CLAW HAMMER),ﾚﾍﾞﾙ30でスレッジハンマー(IRON SLEDGEHAMMER)を解除します。ﾚﾍﾞﾙ40でレンチ(WRENCH)を解除します。" title_key="constructionTools" group="tools">
 		<effect name="BlockDamage">
 			<multiply skill_level="1,10" value="1.00,1.32"/>
 			<multiply skill_level="10,20" value="1.32,1.45"/>
@@ -353,7 +353,7 @@
 		<recipe name="wrench" unlock_level="40"/>
 	</action_skill>
 	
-	<perk name="Combine" icon="resource" description_key="Unlock the ability to craft a Combine Station. The Combine Station can be used to combine items to increase their quality level up to 100 above your crafting level." title_key="Combine Station" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="tools">
+	<perk name="Combine" icon="resource" description_key="ニコイチ台(COMBINE STATION)を作ることができます。これを使用してアイテムを組み合わせることで、あなたがクラフトできる品質よりも品質レベルを100あげることができます。" title_key="Combine Station" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="tools">
 		<requirement skill_level="1" required_skill_name="Construction Tools" required_skill_level="20"/>
 		<requirement skill_level="1" required_skill_name="craftSkillTools" required_skill_level="2"/>
 		<recipe name="workstationCombine" unlock_level="1"/>
@@ -384,7 +384,7 @@
 		</effect>
 	</perk>
 
-	<action_skill name="Pistols" exp_to_level="150" icon="pistol" description_key="Do more damage with handguns and reduce the quality loss from repairs. Level up to 20 to be able to assemble pistols. Level 40 unlocks the magnum." title_key="pistols" group="firearms">
+	<action_skill name="Pistols" exp_to_level="150" icon="pistol" description_key="ハンドガンによるダメージを高め、修理のペナルティを低下させます。ピストル(PISTOL)の組み立てにはﾚﾍﾞﾙ20が必要です。ﾚﾍﾞﾙ40でマグナム(MAGNUM)が解除されます。" title_key="pistols" group="firearms">
 		<effect name="EntityDamage">
 			<multiply skill_level="1,5" value="1,1.04"/>
 			<multiply skill_level="5,11" value="1.04,1.07"/>
@@ -484,7 +484,7 @@
 			<add skill_level="3" value="0.20"/>
 		</effect>
 	</perk>
-	<action_skill name="Shotguns" exp_to_level="150" icon="shotgun" description_key="Do more damage with spread weapons and reduce the quality loss from repairs. Level up to 15 to assemble a sawed off shotgun. Level up to 20 to be able to assemble a pump shotgun.them. Level 30 unlocks shotgun choke." title_key="shotguns" group="firearms">
+	<action_skill name="Shotguns" exp_to_level="150" icon="shotgun" description_key="ｼｮｯﾄｶﾞﾝによるﾀﾞﾒｰｼﾞを高め、修理のﾍﾟﾅﾙﾃｨを低下させます。ｿｰﾄﾞｵﾌｼｮｯﾄｶﾞﾝ(SAWED OFF SHOTGUN)の組み立てにはﾚﾍﾞﾙ15が必要です。ﾚﾍﾞﾙ20でﾎﾟﾝﾌﾟｼｮｯﾄｶﾞﾝ(PUMP SHOTGUN)の組み立てが解除され、ﾚﾍﾞﾙ30でｼｮｯﾄｶﾞﾝﾁｮｰｸ(SHOTGUN CHOKE)を解除します。" title_key="shotguns" group="firearms">
 		<effect name="EntityDamage">
 			<multiply skill_level="1,5" value="1,1.04"/>
 			<multiply skill_level="5,11" value="1.04,1.07"/>
@@ -583,7 +583,7 @@
 			<add skill_level="3" value="0.15"/>
 		</effect>
 	</perk>
-	<action_skill name="Rifles" exp_to_level="150" icon="rifle" description_key="Do more damage with rifles and reduce the quality loss from repairs. Gain skill by using items from this group. Level up to 20 to be able to assemble hunting rifles. Level 40 unlocks the sniper rifle." title_key="rifles" group="firearms">
+	<action_skill name="Rifles" exp_to_level="150" icon="rifle" description_key="ライフルによるダメージを高め、修理のペナルティを低下させます。ハンティングライフル(HUNTING RIFLE)の組み立てにはﾚﾍﾞﾙ20が必要です。ﾚﾍﾞﾙ40でスナイパーライフル(sniper rifle)が解除されます。" title_key="rifles" group="firearms">
 		<effect name="EntityDamage">
 			<multiply perk_level="0" value="1"/>
 			<multiply skill_level="1,5" value="1,1.04"/>
@@ -677,7 +677,7 @@
 		</effect>
 	</perk>
 
-	<action_skill name="Assault Rifles" exp_to_level="150" icon="rifle" description_key="Do more damage with assault weapons and reduce the quality loss from repairs. Level 20 unlocks unlocks the SMG. Level 40 unlocks Assault Rifle." title_key="Assault Rifles" group="firearms">
+	<action_skill name="Assault Rifles" exp_to_level="150" icon="rifle" description_key="アサルトライフル系のダメージ向上と修理ペナルティを低下させます。ﾚﾍﾞﾙ20でサブマシンガン(SMG),ﾚﾍﾞﾙ40でアサルトライフル(Assault Rifle)を解除します。" title_key="Assault Rifles" group="firearms">
 		<effect name="EntityDamage">
 			<multiply perk_level="0" value="1"/>
 			<multiply skill_level="1,5" value="1,1.04"/>
@@ -767,7 +767,7 @@
 		</effect>
 	</perk>
 
-	<action_skill name="Archery" exp_to_level="150" icon="archery" description_key="Do more damage with bows and crossbows. Gain skill by using items from this group. Level 10 unlocks the wooden bow. Level 30 unlocks the crossbow. Level 40 unlocks compound bow. Level 50 unlocks the repeater crossbow." title_key="archery" group="weapons">
+	<action_skill name="Archery" exp_to_level="150" icon="archery" description_key="矢とボルトでより大きなの傷を負わせることができます。ﾚﾍﾞﾙ10で木の弓,ﾚﾍﾞﾙ30でクロスボウ,レベル40でコンパウンドボウを解除します。ﾚﾍﾞﾙ50はリピータークロスボウを解除します。" title_key="archery" group="weapons">
 		<effect name="EntityDamage">
 			<multiply skill_level="1,5" value="1,1.04"/>
 			<multiply skill_level="5,11" value="1.04,1.07"/>
@@ -785,7 +785,7 @@
 		<recipe name="crossbowRepeater" unlock_level="50"/>
 	</action_skill>
 
-	<perk name="Master Archer" icon="archery" description_key="Each level in perk raises your damage with bows and crossbows." title_key="Master Archer" max_level="3" skill_point_cost_multiplier="1.43" skill_point_cost_per_level="5" group="weapons">
+	<perk name="Master Archer" icon="archery" description_key="矢とボルトのダメージをあげるPERK。" title_key="Master Archer" max_level="3" skill_point_cost_multiplier="1.43" skill_point_cost_per_level="5" group="weapons">
 		<requirement perk_level="1" required_skill_name="Archery" required_skill_level="10"/>
 		<requirement perk_level="2" required_skill_name="Archery" required_skill_level="30"/>
 		<requirement perk_level="3" required_skill_name="Archery" required_skill_level="50"/>
@@ -809,7 +809,7 @@
 		<recipe name="explodingCrossbowBolt" unlock_level="50"/>
 	</crafting_skill>
 
-	<player_skill name="Medicine" icon="medical" description_key="Get more health from topical and consumable remedies. Gain skill by using items from this group. Learn new recipes every 5 levels until level 40." title_key="medicine" group="health">
+	<player_skill name="Medicine" icon="medical" description_key="怪我や病気の治療でより多くの回復を期待できる。新しいレシピは5レベルごとに40レベルまで学ぶことができる。" title_key="medicine" group="health">
 		<effect name="HealthGain">
 			<multiply skill_level="1,10" value="1.00,1.32"/>
 			<multiply skill_level="10,20" value="1.32,1.45"/>
@@ -1068,7 +1068,7 @@
 		<recipe name="chemistryStation" unlock_level="1"/>
 	</perk>
 	<perk name="craftSkillScience" max_level="10" skill_point_cost_multiplier="1.26" skill_point_cost_per_level="3" exp_to_level="5000000"
-	icon="science" description_key="Unlock various recipes as you level through this perk." title_key="craftSkillScience" group="science" exp_gain_multiplier="0">
+	icon="science" description_key="化学薬品や醸造、工業品のレシピ解除やクラフト速度、品質を向上させるPERK。修理のペナルティも低下します。" title_key="craftSkillScience" group="science" exp_gain_multiplier="0">
 		<requirement perk_level="3" required_player_level="10"/>
 		<requirement perk_level="4" required_player_level="20"/>
 		<requirement perk_level="5" required_player_level="30"/>
@@ -1508,7 +1508,7 @@
 
 
 
-	<crafting_skill name="Mechanical" icon="misc_crafting" description_key="This skill levels the more you work with electronics and mechanical gear. Level 10/15/25 unlocks the chainsaw/nailgun/auger. Level 30 unlocks gear mechanisms and mechanical parts. Level 50 unlocks minibike." title_key="Mechanical Skills" group="crafting">
+	<crafting_skill name="Mechanical" icon="misc_crafting" description_key="電子機器や駆動系機械の作業でﾚﾍﾞﾙがあがります。ﾚﾍﾞﾙ10/15/25はﾁｪｰﾝｿｰ(CHAINSAW)/ﾈｲﾙｶﾞﾝ(NAILGUN)/採掘用ﾄﾞﾘﾙ(AUGER)を解除します。ﾚﾍﾞﾙ30でｷﾞｱ(GEAR MECHANISMS)と機械部品(MECHANICAL PARTS)を解除します。ﾚﾍﾞﾙ50でﾐﾆﾊﾞｲｸ(MINIBIKE)を解除します。" title_key="Mechanical Skills" group="crafting">
 		<effect name="CraftingTime">
 			<multiply skill_level="1,100" value="1,.5"/>
 		</effect>
@@ -1546,7 +1546,7 @@
 		<recipe name="minibikeHandlebars" unlock_level="50"/>
 	</crafting_skill>
 	
-	<crafting_skill name="Traps" exp_to_level="230" icon="misc_crafting" description_key="Learn how to craft improvised traps. Every ten levels unlocks a new tier. Level 20 unlocks explosive traps. Level 30 unlocks fire traps." title_key="Traps" group="tools">
+	<crafting_skill name="Traps" exp_to_level="230" icon="misc_crafting" description_key="罠の作り方を学びます。10レベルごとに新しい罠が解除されます。ﾚﾍﾞﾙ20で火薬系の罠を解除し、ﾚﾍﾞﾙ30で火炎罠(FIRE TRAP)を解除します。" title_key="Traps" group="tools">
 		<effect name="CraftingTime">
 			<multiply skill_level="1,100" value="1,.5"/>
 		</effect>
@@ -1574,7 +1574,7 @@
 		<recipe name="trapFire" unlock_level="30"/>
 	</crafting_skill>
 	
-	<crafting_skill name="Masonry" icon="forge" description_key="Learn how to build with stone. Level 5 unlocks clay bowl and plate. Level 10 unlocks cobblestones. Level 20 unlocks cement mixer, chisel and bricks. Level 50 unlocks cement." title_key="Masonry" group="crafting">
+	<crafting_skill name="Masonry" icon="forge" description_key="石工を学びます。ﾚﾍﾞﾙ5でボウル(CLAY BOWL)と皿(PLATE)を解除します。ﾚﾍﾞﾙ10で玉石(COBBLESTONES)を解除します。ﾚﾍﾞﾙ20でセメントミキサー(CEMENT MIXER),たがね(CHISEL)とレンガ(BRICK)を解除します。ﾚﾍﾞﾙ50はセメント(CEMENT)を解除します。" title_key="Masonry" group="crafting">
 		<effect name="CraftingTime">
 			<multiply skill_level="1,100" value="1,.5"/>
 		</effect>
@@ -1613,7 +1613,7 @@
 	</crafting_skill>
 	
 	
-	<crafting_skill name="Blacksmith" icon="forge" description_key="Level this skill up by crafting various items and blocks in the forge. Levels 10, 15, 20, 25, 30, 50 and 80 all unlock new recipes." title_key="Blacksmith" group="crafting">
+	<crafting_skill name="Blacksmith" icon="forge" description_key="鍛冶炉(FORGE)で様々なアイテムやブロックをクラフトできます。ﾚﾍﾞﾙ10,15,20,25,30,50及び80で全ての新しいレシピが解除されます。" title_key="Blacksmith" group="crafting">
 		<effect name="CraftingTime">
 			<multiply skill_level="1,100" value="1,.5"/>
 		</effect>
@@ -1675,7 +1675,7 @@
 		<recipe name="glassBulletproofRamp" unlock_level="25"/>
 	</crafting_skill>
 	
-	<crafting_skill name="Carpentry" icon="forge" description_key="Level this skill up to unlock more wood-related recipes such as woodframes and carpenter kits. Level 10 unlocks woodframe crafting." title_key="Carpentry" group="crafting">
+	<crafting_skill name="Carpentry" icon="forge" description_key="このスキルを高めることで木製フレーム(WOOD FRAME)や大工キット(CARPENTER KITS)などの木工関連のレシピが解除されます。ﾚﾍﾞﾙ10で木製フレーム(WOOD FRAME)が解除されます。" title_key="Carpentry" group="crafting">
 		<effect name="CraftingTime">
 			<multiply skill_level="1,100" value="1,.5"/>
 		</effect>
@@ -1703,7 +1703,7 @@
 		<recipe name="cntEPSGasPump" unlock_level="20"/>
 	</crafting_skill>
 	
-	<crafting_skill name="Cooking" exp_to_level="130" icon="run" description_key="The higher your skill in cooking the faster you can craft meals. You also gradually unlock new cooking recipes as you level." title_key="Cooking" group="crafting">
+	<crafting_skill name="Cooking" exp_to_level="130" icon="run" description_key="料理のスキルが上がると調理時間が早くなります。レベルがあがるにつれて、徐々に新しいレシピを覚えることでしょう。殺伐した世界に豊かな生活を。" title_key="Cooking" group="crafting">
 		<effect name="CraftingTime">
 			<multiply skill_level="1,100" value="1,.5"/>
 		</effect>
@@ -1735,7 +1735,7 @@
 		<recipe name="mealBreakfast" unlock_level="50"/>
 	</crafting_skill>
 
-	<action_skill name="Axes" exp_to_level="500" icon="mining" description_key="Do more damage with axes and harvest resources faster. Level 10 unlocks iron fireaxe. Level 20 unlocks steel fireaxe. Level 50 unlocks Combat Axe." title_key="axesTitle" group="tools">
+	<action_skill name="Axes" exp_to_level="500" icon="mining" description_key="斧によるダメージと伐採効率を高めます。ﾚﾍﾞﾙ10で鉄の消防斧,ﾚﾍﾞﾙ20で鋼の消防斧を解除します。ﾚﾍﾞﾙ50でコンバットアックスを解除します。" title_key="axesTitle" group="tools">
 		<effect name="BlockDamage">
 			<multiply skill_level="1,10" value="1.00,1.32"/>
 			<multiply skill_level="10,20" value="1.32,1.45"/>
@@ -1801,27 +1801,27 @@
 		</effect>
 	</perk>
 
-	<perk name="Gun Rocket" icon="rifle" description_key="Max out this perk to learn how to assemble a rocket launcher." title_key="Gun: Rocket Launcher" max_level="30" skill_point_cost_multiplier="0" skill_point_cost_per_level="1" group="firearms">
+	<perk name="Gun Rocket" icon="rifle" description_key="ロケットランチャー(ROCKET LAUNCHER)を組み立てる方法を学びます。" title_key="Gun: Rocket Launcher" max_level="30" skill_point_cost_multiplier="0" skill_point_cost_per_level="1" group="firearms">
 		<recipe name="gunRocketLauncher" unlock_level="30"/>
 		<recipe name="rocket" unlock_level="30"/>
 		<recipe name="rocketCasing" unlock_level="30"/>
 		<recipe name="rocketTip" unlock_level="30"/>
 	</perk>
 
-	<perk name="Plumbing" icon="misc_crafting" description_key="Max out this perk to learn how to craft plumbing kits to repair sinks for a clean source of drinking water." title_key="Plumbing" max_level="15" skill_point_cost_multiplier="0" skill_point_cost_per_level="1" group="crafting">
+	<perk name="Plumbing" icon="misc_crafting" description_key="新鮮な水を手に入れるために水源を探す必要はなくなった。シンクを修理する時に必要な配管キット(PLUMBING KIT)の作り方さえ学べば、いつでも乾きを癒すことができるぞ。" title_key="Plumbing" max_level="15" skill_point_cost_multiplier="0" skill_point_cost_per_level="1" group="crafting">
 		<requirement perk_level="15" required_skill_name="Mechanical" required_skill_level="15"/>
 		<recipe name="plumbingKit" unlock_level="15"/>
 		<recipe name="workingCabinetSink" unlock_level="15"/>
 		<recipe name="workingGranitSink" unlock_level="15"/>
 	</perk>
 	
-	<perk name="Oven Repair" icon="misc_crafting" description_key="Max out this perk to learn how to craft Oven Repair kits to repair ovens for cooking without needing fuel." title_key="Oven Repair" max_level="15" skill_point_cost_multiplier="0" skill_point_cost_per_level="1" group="crafting">
+	<perk name="Oven Repair" icon="misc_crafting" description_key="もう何かを燃やして料理する時代じゃなくなった。オーブンを修理する時に必要な修理キット(OVEN REPAIR KIT)の作り方さえ学べば、いつでもおいしい料理にありつけることができるぞ。" title_key="Oven Repair" max_level="15" skill_point_cost_multiplier="0" skill_point_cost_per_level="1" group="crafting">
 		<requirement perk_level="15" required_skill_name="Mechanical" required_skill_level="15"/>
 		<recipe name="ovenKit" unlock_level="15"/>
 		<recipe name="workstationOven" unlock_level="15"/>
 	</perk>
 
-	<perk name="Security" icon="misc_crafting" description_key="Max this perk to learn how to craft very durable gun safes, advanced doors and drawbridges." title_key="Security Measures" max_level="20" skill_point_cost_multiplier="0" skill_point_cost_per_level="1" group="crafting">
+	<perk name="Security" icon="misc_crafting" description_key="非常に耐久性のある銃金庫(GUN SAFE)や先進的な扉や門扉の作り方を学べます。今すぐ学んで山賊に備えよう。" title_key="Security Measures" max_level="20" skill_point_cost_multiplier="0" skill_point_cost_per_level="1" group="crafting">
 		<requirement perk_level="20" required_skill_name="Carpentry" required_skill_level="20"/>
 		<requirement perk_level="20" required_skill_name="Mechanical" required_skill_level="20"/>
 		<recipe name="ironDoor1_v1" unlock_level="20"/>
@@ -1837,12 +1837,12 @@
 		<recipe name="jailDoor" unlock_level="20"/>
 	</perk>
 
-	<perk name="Skinning Knife" icon="knife" description_key="Learn how to craft a skinning knife. These knives are useful for getting extra hides from skinning animals." title_key="Skinning Knife" max_level="1" skill_point_cost_per_level="10" group="weapons">
+	<perk name="Skinning Knife" icon="knife" description_key="スキニングナイフ(SKINNING KNIFE)の作り方を学びます。これらナイフは動物からの剥ぎ取りで得られる資源を今までより多く手に入れることができます。" title_key="Skinning Knife" max_level="1" skill_point_cost_per_level="10" group="weapons">
 		<requirement perk_level="1" required_skill_name="Blade Weapons" required_skill_level="80"/>
 		<recipe name="skinningKnife" unlock_level="1"/>
 	</perk>
 	
-	<perk name="Butcher Knife" icon="knife" description_key="Learn how to craft a butcher knife. These knives are useful for getting extra meat from animals." title_key="Butcher Knife" max_level="1" skill_point_cost_per_level="10" group="weapons">
+	<perk name="Butcher Knife" icon="knife" description_key="肉切り包丁(BUTCHER'S KNIFE)の作り方を学びます。これらのナイフは動物からの剥ぎ取りで得られる肉を今までより多く手に入れることができます。" title_key="Butcher Knife" max_level="1" skill_point_cost_per_level="10" group="weapons">
 		<requirement perk_level="1" required_skill_name="Cooking" required_skill_level="80"/>
 		<requirement perk_level="1" required_skill_name="Blade Weapons" required_skill_level="80"/>
 		<recipe name="butcherKnife" unlock_level="1"/>
