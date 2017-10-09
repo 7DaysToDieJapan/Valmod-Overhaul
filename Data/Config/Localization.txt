@@ -2416,7 +2416,7 @@ xuiSkillMinWellness,UI,Menu,KgNone,最小健康値,Min Wellness,Min. Wohlbefinde
 xuiSkillNoise,UI,Menu,KgNone,騒音,Noise,Lärm,,Ruido
 xuiSkillRangedFalloff,UI,Menu,KgNone,劣化量,Ranged Falloff,Effektive Reichweite,,Caída a distancia
 xuiSkillReloadSpeed,UI,Menu,KgNone,ﾘﾛｰﾄﾞｽﾋﾟｰﾄﾞ,Reload Speed,Nachladzeit,,Velocidad de recarga
-xuiSkillRepairAmount,UI,Menu,KgNone,流離材,Repair Amount,Reparaturwert,,Cantidad para reparar
+xuiSkillRepairAmount,UI,Menu,KgNone,修理材,Repair Amount,Reparaturwert,,Cantidad para reparar
 xuiSkillRepairQualityLoss,UI,Menu,KgNone,修理劣化量,Repair Quality Loss,Reparaturqualitätsverlust,,Calidad perdida en la reparación
 xuiSkillRepairTime,UI,Menu,KgNone,修理時間,Repair Time,Reparaturzeit,,Tiempo de reparación
 xuiSkillRunSpeed,UI,Menu,KgNone,走る速度,Run Speed,Laufgeschwindigkeit,,Velocidad al correr
