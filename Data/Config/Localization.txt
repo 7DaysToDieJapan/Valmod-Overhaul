@@ -992,7 +992,7 @@ foodPoisoning,buffs,Buff,KgNone,Food Poisoning,Food Poisoning,Lebensmittelvergif
 foodPoisoningDesc,buffs,Buff,KgNone,食中毒になりました。しばらく走ることができなくなるでしょう。,You feel sick to your stomach.,Dir ist übel.,,Te duele la barriga.
 foodPoisoningTooltip,buffs,Buff,KgNone,You feel sick to your stomach.,You feel sick to your stomach.,Dir ist übel.,,Te duele la barriga.
 freezing,buffs,Buff,KgNone,Freezing,Freezing,Frieren,,Congelándote
-freezingDesc,buffs,Buff,KgNone,凍てつく寒さで凍えています。衣服を着用するか、ここから退避するか、キャンプファイアで火を起こして温まってください。\n凍えていると多くのカロリーを消費します。,"You are freezing. Find clothing, take shelter or build a campfire. When you're freezing you will burn more calories.","Du frierst. Finde Kleidung, einen Unterschlupf oder mache ein Lagerfeuer. Wenn du frierst, verbrennst du mehr Kalorien.","Te estás congelando. Busca ropa, encuentra un refugio o enciende una fogata. Quemas más calorías cuando te estás congelando.",
+freezingDesc,buffs,Buff,KgNone,凍てつく寒さで凍えています。衣服を着用するか、ここから退避するか、キャンプファイアで火を起こして暖まってください。\n凍えていると多くのカロリーを消費します。,"You are freezing. Find clothing, take shelter or build a campfire. When you're freezing you will burn more calories.","Du frierst. Finde Kleidung, einen Unterschlupf oder mache ein Lagerfeuer. Wenn du frierst, verbrennst du mehr Kalorien.","Te estás congelando. Busca ropa, encuentra un refugio o enciende una fogata. Quemas más calorías cuando te estás congelando.",
 freezingTooltip,buffs,Buff,KgNone,"You are freezing. Find clothing, take shelter or build a campfire.","You are freezing. Find clothing, take shelter or build a campfire.","Du frierst. Finde Kleidung, einen Unterschlupf oder mache ein Lagerfeuer.","Te estás congelando. Busca ropa, encuentra un refugio o enciende una fogata.",
 freshAir,buffs,Buff,KgNone,Fresh Air,Fresh Air,Frische Luft,,Aire fresco
 fullBuff,buffs,Buff,KgNone,Healing,Healing,Heilen,,Curándote
@@ -1063,7 +1063,7 @@ smell,buffs,Buff,KgNone,Emitting Smell,Emitting Smell,Stinkende Last,,Emanando o
 smellDesc,buffs,Buff,KgNone,あなたはゾンビを惹きつけるニオイをもつ何かを持っています。別の場所に移し替えたほうが賢明かもしれません。,You are carrying something that smells and attracts zombies. Store it in a container.,"Du trägst etwas bei dir, das stinkt und Zombies anzieht. Bewahre es in einem Behälter auf.",Llevas algo que emana un olor y atrae a los zombis. Guárdalo en un recipiente.,
 smellTooltip,buffs,Buff,KgNone,You are carrying something that smells and attracts zombies. Store it in a container.,You are carrying something that smells and attracts zombies. Store it in a container.,"Du trägst etwas bei dir, das stinkt und Zombies anzieht. Bewahre es in einem Behälter auf.",Llevas algo que emana un olor y atrae a los zombis. Guárdalo en un recipiente.,
 smelly,buffs,Buff,KgNone,Smelly,Smelly,Stinker,,Apestoso
-smellyDesc,buffs,Buff,KgNone,お前臭い,You stink.,Du stinkst.,,Apestas.
+smellyDesc,buffs,Buff,KgNone,お前臭い。,You stink.,Du stinkst.,,Apestas.
 smellyTooltip,buffs,Buff,KgNone,You stink.,You stink.,Du stinkst.,,Apestas.
 splintedLeg,buffs,Buff,KgNone,Splinted Leg,Splinted Leg,Geschientes Bein,,Pierna entablillada
 splintedLegDesc,buffs,Buff,KgNone,骨折した足は現在治療中です。飛び降りるときはいつも以上に気をつけてください。\n回復するまで骨折しやすくなっています。,Your leg is splinted. Give it time to heal. Avoid jumping from heights as splints do not protect against reinjuring your leg.,"Dein Bein ist geschient. Gib ihm Zeit zum Heilen. Vermeide es, von Höhen herabzuspringen, denn Schienen schützen dein Bein nicht vor einer neuen Verletzung.",Tu pierna está entablillada. Dale tiempo para que se cure. Evita saltar desde sitios altos ya que usar una tablilla no quiere decir que no te puedas volver a lastimar la pierna.,
@@ -1072,10 +1072,10 @@ sprainedLeg,buffs,Buff,KgNone,Sprained Leg,Sprained Leg,Verstauchtes Bein,,Esgui
 sprainedLegDesc,buffs,Buff,KgNone,足を捻挫しました。添え木(Splint)で治療してください。,Your leg is sprained and slowing you down. You should craft and apply a splint to heal it.,"Dein Bein ist verstaucht und macht dich langsamer. Du solltest eine Schiene fertigen und verwenden, damit es heilen kann.",Tu esguince te está ralentizando. Deberías fabricar una tablilla y colocártela para que se cure.,
 sprainedLegTooltip,buffs,Buff,KgNone,Your leg is sprained. You need a splint to heal it faster.,Your leg is sprained. You need a splint to heal it faster.,"Dein Bein ist verstaucht. Du brauchst eine Schiene, damit es schneller heilt.",Tienes un esguince. Necesitas una tablilla para que se cure más rápido.,
 steroids,buffs,Buff,KgNone,Steroids,Steroids,Steroide,,Esteroides
-steroidsDesc,buffs,Buff,KgNone,感染の免疫を持っています。ゾンビに噛まれても感染しません。,Reduces swelling and suppresses the symptoms of infection.,Verringert Schwellungen und unterdrückt die Symptome von Infektionen.,,Reducen la hinchazón y eliminan los síntomas de la infección.
+steroidsDesc,buffs,Buff,KgNone,腫れを抑え、感染の免疫を持っています。ゾンビに噛まれても感染しません。,Reduces swelling and suppresses the symptoms of infection.,Verringert Schwellungen und unterdrückt die Symptome von Infektionen.,,Reducen la hinchazón y eliminan los síntomas de la infección.
 steroidsTooltip,buffs,Buff,KgNone,Reduces swelling and suppresses the symptoms of infection.,Reduces swelling and suppresses the symptoms of infection.,Verringert Schwellungen und unterdrückt die Symptome von Infektionen.,,Reducen la hinchazón y eliminan los síntomas de la infección.
 stewWarming,buffs,Buff,KgNone,A nice hot stew,A nice hot stew,"Ein guter, warmer Eintopf",Un rico estofado.,
-stewWarmingDesc,buffs,Buff,KgNone,冷や飯からの解放。寒い夜に暖かいものを食べる幸せ。ポカポカします。,Just the thing to warm you up on a cold winter's nights.,"Genau das Richtige, um dich in einer kalten Winternacht aufzuwärmen.",Perfecto para calentarte en las frías noches invernales.,
+stewWarmingDesc,buffs,Buff,KgNone,冷や飯からの解放。寒い夜に温かいものを食べる幸せ。ポカポカします。,Just the thing to warm you up on a cold winter's nights.,"Genau das Richtige, um dich in einer kalten Winternacht aufzuwärmen.",Perfecto para calentarte en las frías noches invernales.,
 stewWarmingTooltip,buffs,Buff,KgNone,"Your heart, soul, and the rest of you already feel warmer.","Your heart, soul, and the rest of you already feel warmer.","Dein Herz, deine Seele und der Rest von dir fühlen sich bereits wärmer.","Sientes más calidez en el corazón, alma y cuerpo.",
 stunned,buffs,Buff,KgNone,Stunned,Stunned,Gelähmt,,Aturdido
 stunnedDesc,buffs,Buff,KgNone,身体の自由が効きません。次の一撃に備えてください。,You are stunned,Du bist gelähmt.,,Estás aturdido.
@@ -3730,7 +3730,7 @@ shockedBuffTooltip,buffs,Buff,New,You are shocked.,You are shocked.,,,
 snowberryPoisonDesc,buffs,Buff,New,スノーベリー中毒になってしまいました。,Borderline edible means don't eat too much of this at once.,,,
 snowberryPoisonName,buffs,Buff,New,Snowberry Poisoning,Snowberry Poisoning,,,
 snowberryPoisonTooltip,buffs,Buff,New,You are not feeling well.,You are not feeling well.,,,
-snowberryWarmingDesc,buffs,Buff,New,すごく寒い日でも体がﾎﾟｶﾎﾟｶするのを感じます。,Great for cold days but treat with caution.,,,
+snowberryWarmingDesc,buffs,Buff,New,すごく寒い日でも体がポカポカするのを感じます。,Great for cold days but treat with caution.,,,
 snowberryWarmingName,buffs,Buff,New,Cold Resistence,Cold Resistence,,,
 snowberryWarmingTooltip,buffs,Buff,New,The cold has lost some sting.,The cold has lost some sting.,,,
 trapDamage1EffectDesc,buffs,Buff,New,罠だ！これは罠だ！,You are taking damage from a trap. Move away!,,,
